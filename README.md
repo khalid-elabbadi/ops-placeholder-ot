@@ -18,25 +18,18 @@ $ npm install --save ops-placeholder-ot
 Import ops-placeholder-ot module in Angular app.
 
 ```typescript
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
-import { OpsPlaceholderOtModule } from 'projects/ops-placeholder-ot/src/public-api';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { OpsPlaceholderOtModule } from 'ops-placeholder-ot';
 
 @NgModule({
   declarations: [
-    AppComponent
+    ...
   ],
   imports: [
-    BrowserModule,
-    FormsModule,
-    AppRoutingModule,
+    ....,
     OpsPlaceholderOtModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [...]
 })
 export class AppModule {
 
@@ -56,9 +49,11 @@ Usage
 # Options
 ``[elementRef]`` html input element ref
 
+``[color]`` color of placeholder default is ``#959595``
+
 ``[placeholder]`` placeholder to keep visible on taping
 
-``[visibleOnlyOnValue]`` eighter to show the placeholder only if user tape at least one character or show it in the first shot
+``[visibleOnlyOnValue]`` eighter to show the placeholder only if user tape at least one character or show it in the first shot - default is ``false``
 
 # Stuffs for contributors
 
