@@ -1,10 +1,10 @@
-# What this module do exactly ?
-As you know the html placeholder disappears once you start typing. That's cool but sometimes we need it to stay visible to guide the user while typing a RIB or Phone number for example. You can combine this module with an other masking module to get better user experience
+# What does this module do exactly ?
+As you know the html placeholder disappears once you start typing. That's cool but sometimes we need it to stay visible to guide the user while typing a RIB or a phone number for example. You can combine this module with another masking module to get better user experience
 
 # Demo
 This module render this
 
-![Module preview](projects/ops-placeholder-ot/docs/preview.png)
+![Module preview](docs/preview.png)
 
 # Installing
 ```bat
