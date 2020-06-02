@@ -1,0 +1,6 @@
+<div *ngIf="visible()" class="ops-placeholder-ot" [ngStyle]="getElementStyle()" >
+  <span *ngFor="let i of placeholder; let indx=index;">
+    <span *ngIf="i != ';_;'" [style.color]="getColor(indx)">{{i}}</span>
+    <span *ngIf="i == ';_;'">&nbsp;</span>
+  </span>
+</div>
