@@ -1,6 +1,24 @@
 {
   "name": "ops-placeholder-ot",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "description": "As you know the html placeholder disappears once you start typing. That's cool but sometimes we need it to stay visible to guide the user while typing a RIB or a phone number for example. You can combine this module with another masking module to get better user experience",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khalid-elabbadi/ops-placeholder-ot.git"
+  },
+  "keywords": [
+    "angular",
+    "placeholder",
+    "mask",
+    "invite"
+  ],
+  "author": "Khalid ELABBADI <kha.elabbadi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khalid-elabbadi/ops-placeholder-ot/issues"
+  },
+  "homepage": "https://github.com/khalid-elabbadi/ops-placeholder-ot",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"

@@ -4,7 +4,9 @@ As you know the html placeholder disappears once you start typing. That's cool b
 # Demo
 This module render this
 
-![Module preview](docs/preview.png)
+![Module preview](docs/preview-1.png)
+
+![Module preview](docs/preview-2.png)
 
 # Installing
 ```bat
